@@ -41,7 +41,7 @@ h2 {
   color: #E15560;
 }
 h3 {
-  padding-top: 21px;
+  padding-bottom: 20px; 
   font-size: 25px;
   font-weight: bold;
   letter-spacing: 1.93px;
@@ -91,7 +91,6 @@ li {
 
 /* ---- components ---- */
 .container {
-  margin-left:
   padding: 20px;
   width: 100%;
   background-color: #F08949;
@@ -166,6 +165,7 @@ button {
   width: 266px;
   height: 53px;
   font-size: 23px;
+
 }
 
 /* ---- css shame ---- */
