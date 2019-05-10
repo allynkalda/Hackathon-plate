@@ -17,11 +17,53 @@ img {
 /* ---- typography ---- */
 @import url('https://fonts.googleapis.com/css?family=Lato');
 
-h1, h2, h2, h4, p {
+h1, h2, h2, h3, h4, p {
   font-family: 'Lato', sans-serif;
 }
-h1, h2, h3 {
+h1 {
+  font-size: 44px;
+  font-weight: bolder;
+  color: #699CC6;
+  letter-spacing: -2px;
+}
+h1, h2, h3, p {
   text-align: center;
+}
+p {
+  margin: 20px 30px 20px 20px;
+  font-weight: bold;
+  color: #615375;
+  letter-spacing: 1.5px;
+}
+h2 {
+  font-size: 27px;
+  font-weight: bolder;
+  color: #E15560;
+}
+h3 {
+  padding-top: 21px;
+  font-size: 25px;
+  font-weight: bold;
+  letter-spacing: 1.93px;
+  color: white;
+}
+blockquote {
+  font-size: 16px;
+  color: #4E7594;
+  text-align: center;
+}
+h4 {
+  font-size: 18px;
+  font-weight: bold;
+  color: #9D7087;
+}
+ul {
+  text-align: center;
+}
+li {
+  font-size: 15px;
+  color: #84203C;
+  list-style-type: none;
 }
 
 /* ---- layout ---- */
@@ -48,6 +90,13 @@ h1, h2, h3 {
 /* ---- footer ---- */
 
 /* ---- components ---- */
+.container {
+  margin-left:
+  padding: 20px;
+  width: 100%;
+  background-color: #F08949;
+  height: 76px;
+}
 .parent-div {
   display: flex;
   flex-wrap: wrap;
@@ -67,15 +116,7 @@ h1, h2, h3 {
   text-align: center;
 }
 .person-buttons {
-  margin-top: 10px;
-	height: 35px;
-	width: 13 0px;
-	border-radius: 10px;
-	background-size: 42px 42px;
-	background-color:  rgba(28, 68, 156, 0.53);
-	border: none;
-  font-size: 18px;
-  color:white;
+
 }
 .childaside-div {
   padding-top: 20px;
@@ -101,7 +142,6 @@ h1, h2, h3 {
 footer{
   height:50px;
   width:100%;
-  background-color: rgba(28, 68, 156, 0.53);
   display:flex;
   justify-content: space-around;
   align-items: center;
@@ -118,6 +158,14 @@ iframe {
   text-align: center;
   height: auto;
   width: 80%;
+}
+button {
+  color: #E15560;
+  border-color: #804141;
+  border-width: 2px;
+  width: 266px;
+  height: 53px;
+  font-size: 23px;
 }
 
 /* ---- css shame ---- */
